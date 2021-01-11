@@ -1,48 +1,107 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-    <!--lista desordenada ul, ol lista ordenada-->
-    <ul>
-        <!--item list, -->
-        <li>
-            <!--link-->
-            <a href="index.html">Home</a>
-        </li>
-        <li>
-            <a href="contato.html">Contato</a>
-        </li>
-    </ul>
+    <div class="menu">
+        <!--lista desordenada ul, ol lista ordenada-->
+        <ul>
+            <!--item list, -->
+            <li>
+                <!--link-->
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="contato.html">Contato</a>
+            </li>
+        </ul>
+    </div>
+
     <!--titulo-->
-    <h1>Sobre Witer</h1>
-    <!--paragrafo-->
-    <p>
-        Mussum Ipsum, cacilds vidis litro abertis. Quem manda na minha terra sou euzis! Paisis, filhis, espiritis santis. Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose.
+    <h1 class="center">Sobre Witer</h1>
+    <div class="container">
+        <div>
+            <!--paragrafo-->
+            <!-- <p style="font-size: 30px;"> adicionando style css direto na tag Inline-->
+            <p class="jus">
+                Mussum Ipsum, cacilds vidis litro abertis. Quem manda na minha terra sou euzis! Paisis, filhis,
+                espiritis
+                santis. Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Em pé sem cair,
+                deitado
+                sem dormir, sentado sem cochilar e fazendo pose.
 
-        Suco de cevadiss deixa as pessoas mais interessantis. Casamentiss faiz malandris se pirulitá. Per aumento de cachacis, eu reclamis. Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio.
-        
-        Interagi no mé, cursus quis, vehicula ac nisi. Mé faiz elementum girarzis, nisi eros vermeio. Quem num gosta di mim que vai caçá sua turmis! Admodum accumsan disputationi eu sit. Vide electram sadipscing et per.
-        
-        Delegadis gente finis, bibendum egestas augue arcu ut est. Aenean aliquam molestie leo, vitae iaculis nisl. Atirei o pau no gatis, per gatis num morreus. Viva Forevis aptent taciti sociosqu ad litora torquent.
-        
-        Leite de capivaris, leite de mula manquis sem cabeça. Sapien in monti palavris qui num significa nadis i pareci latim. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Si num tem leite então bota uma pinga aí cumpadi!
-    </p>
+                Suco de cevadiss deixa as pessoas mais interessantis. Casamentiss faiz malandris se pirulitá. Per
+                aumento de
+                cachacis, eu reclamis. Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non
+                consequat
+                odio.
 
-    <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta minima sapiente dicta placeat vitae veniam iusto doloremque, sunt rem esse tempora voluptate culpa illum, minus odit iure. Similique, inventore vel? 
-    </p>
+                Interagi no mé, cursus quis, vehicula ac nisi. Mé faiz elementum girarzis, nisi eros vermeio. Quem num
+                gosta
+                di
+                mim que vai caçá sua turmis! Admodum accumsan disputationi eu sit. Vide electram sadipscing et per.
 
-    <!--imagem-->
-    <img src="assets/img/witer.png" alt="Minha foto" width="300">
+                Delegadis gente finis, bibendum egestas augue arcu ut est. Aenean aliquam molestie leo, vitae iaculis
+                nisl.
+                Atirei o pau no gatis, per gatis num morreus. Viva Forevis aptent taciti sociosqu ad litora torquent.
+
+                Leite de capivaris, leite de mula manquis sem cabeça. Sapien in monti palavris qui num significa nadis i
+                pareci
+                latim. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Si num
+                tem
+                leite então bota uma pinga aí cumpadi!
+            </p>
+
+            <p class="jus">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta minima sapiente dicta placeat vitae
+                veniam
+                iusto
+                doloremque, sunt rem esse tempora voluptate culpa illum, minus odit iure. Similique, inventore vel?
+            </p>
+        </div>
+        <div>
+            <!--imagem-->
+            <img id="foto-perfil" src="assets/img/witer.png" alt="Minha foto">
+        </div>
+
+    </div>
+
     <!--subtitulo-->
-    <h2>Meu vídeo</h2>
-    <!--width=largura, height=altura,frameborder=moldura, allow=permitir,(acelerômetro; Reprodução automática; prancheta-escrever; mídia criptografada; giroscópio; janela), allowfullscreen=tela cheia-->
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/zjCRK-MBW0w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h2 class="center">Meu vídeo predileto</h2>
+    <div class="container mb">
+        <!--width=largura, height=altura,frameborder=moldura, allow=permitir,(acelerômetro; Reprodução automática; prancheta-escrever; mídia criptografada; giroscópio; janela), allowfullscreen=tela cheia-->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/zjCRK-MBW0w" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
 
+    </div>
+
+    <hr>
+
+    <footer>
+        <div class=" container center footer ">
+            <a href="https://www.linkedin.com/in/witermendonca/" target="_blank">
+                <img src="assets/img/linkedin.png" alt="Linkedin">
+            </a>
+            <a href="https://github.com/witermendonca" target="_blank">
+                <img src="assets/img/github.png" alt="GitHub">
+            </a>
+            <a href="https://www.instagram.com/witermendonca/" target="_blank">
+                <img src="assets/img/instagram.png" alt="Instagram">
+            </a>
+        </div>
+
+        <p class="center">
+            Witer Mendonça &copy
+        </p>
+    </footer>
 
 </body>
-</html>
+
+</html> 

@@ -1,0 +1,73 @@
+
+header {
+    height: 100vh;
+    display: flex;
+    justify-content: center; /*horizontal*/
+    align-items: center; /*vertical*/ 
+    background-color: rgb(16, 5, 88);
+    background-image: url("../img/indio-capa.jpg");
+    background-size: cover;
+    width: 100vw;
+  }
+  
+  .menu {
+    background-color: white;
+    position:fixed ; /*deixa o elemeto fixo e por cima de tudo*/
+    width: 100vw; /*ajustando a largura do menu para 100% da largura da tela*/
+    top: 0;
+  }
+  
+ .menu li{
+    list-style: none;
+}
+
+  
+  .menu ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .menu a {
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+  .menu a:hover{
+    color: gray;
+}
+ h1{
+    color: white;
+  }
+   
+ h2{
+    text-align: justify;
+    padding: 30px;
+    font-size: 30px;
+  }
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+.jus{
+    text-align: justify;
+    padding: 30px;
+    font-size: 20px ;
+}
+.jus a:hover{
+    color: gray;
+}
+footer{
+    text-align: center;
+}
+.footer img{
+    width: 30px;
+    padding: 30px;
+}
+.ml-50{
+    margin-left: 50px;
+}
